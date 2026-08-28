@@ -1,9 +1,9 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
-import Sobre from './Sobre';
 import Produto from './Produto';
 import Contato from './Contato';
+import Livro from './Livros';
 import Header from './componentes/Header.jsx';
 import Footer from './componentes/Footer.jsx';
 
@@ -18,9 +18,9 @@ return (
     <Routes>
 
       <Route path='/' element={<Home />}/>
-      <Route path='/Sobre' element={<Sobre />}/>
       <Route path='/Produto' element={<Produto />}/>
       <Route path='/Contato' element={<Contato />}/>
+      <Route path='/Livro' element={<Livro />}/>
 
 
     </Routes>
