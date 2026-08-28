@@ -27,12 +27,12 @@ return (
     
     
     
-    
+    <Footer/>
     </BrowserRouter>
 
 
 
-<Footer/>
+
 </>
 )
 }
